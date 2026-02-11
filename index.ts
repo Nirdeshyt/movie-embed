@@ -635,14 +635,4 @@ function findBestFlixHQMatch(searchResults: FlixHQSearchResponse, tmdbDetails: T
     }
 });
 
-(app as any).listen(PORT, () => {
-    // Minimal server startup message
-    console.log(`Starting server on port ${PORT}... 🚀`);
-    if (!process.env.REDIS_HOST) {
-        console.warn('Redis not found. Cache disabled.');
-    }
-    
-    if (!process.env.TMDB_KEY) {
-        console.warn('TMDB API key not found. Using default key.');
-    }
-});
+export default app
