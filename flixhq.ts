@@ -69,8 +69,8 @@ class FlixHQ extends MovieParser {
 
   constructor() {
     super();
-    this.name = 'MyFlixHQ';
-    this.baseUrl = 'https://myflixerz.to';
+    this.name = 'FlixHQ';
+    this.baseUrl = 'https://flixhq.to';
     this.logo = 'https://myflixerz.to/images/logo.png';
     this.classPath = 'MOVIES.MyFlixHQ';
     this.supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
