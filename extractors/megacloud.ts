@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const MAIN_URL = "https://videostr.net";
+const MAIN_URL = "https://streameeeeee.site";
 const USER_AGENT =
   "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36";
 
