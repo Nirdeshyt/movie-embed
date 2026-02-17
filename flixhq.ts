@@ -70,8 +70,8 @@ class FlixHQ extends MovieParser {
   constructor() {
     super();
     this.name = 'MyFlixHQ';
-    this.baseUrl = 'https://flixhq.to';
-    this.logo = 'https://flixhq.to/images/logo.png';
+    this.baseUrl = 'https://myflixerz.to';
+    this.logo = 'https://myflixerz.to/images/logo.png';
     this.classPath = 'MOVIES.MyFlixHQ';
     this.supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
     this.client = axios.create({
